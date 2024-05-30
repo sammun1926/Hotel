@@ -24,9 +24,12 @@ use App\Http\Controllers\AdminController;
             else if ($usertype == 'admin')
             {
                 return view('admin.index');
-            }
-            
-            
+            }    
         }
+     }
+
+        public function home()
+     {
+         return view('home.index');
      }
  }
